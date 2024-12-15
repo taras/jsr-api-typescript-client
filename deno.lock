@@ -7,5 +7,10 @@
     "@hey-api/client-fetch@0.5.4": {
       "integrity": "sha512-e3Vbodpl6yUee+y6HlDgexMIMtm4UqI8V9GyoCMVgmkZz6bAqZn4nkQfcnIUb44L+vKt3nyQWnsZ7PtSv2bkHw=="
     }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@hey-api/client-fetch@0.5.4"
+    ]
   }
 }
