@@ -1,0 +1,13 @@
+{
+  "name": "@taras/jsr-api-typescript-client",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./mod.ts",
+  "unstable": ["sloppy-imports"],
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@hey-api/client-fetch": "npm:@hey-api/client-fetch@0.5.4"
+  }
+}
